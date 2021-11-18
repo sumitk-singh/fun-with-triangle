@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro&family=Megrim&family=Nova+Oval&family=PT+Sans&family=Roboto+Mono:wght@300&family=Roboto:wght@100&display=swap');
+:root {
+    --primary-color: rgb(86, 12, 109);
+}
+
+header {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    background-color: var(--primary-color);
+    color: rgb(202, 202, 202);
+    font-family: 'Farro', sans-serif;
+    font-family: 'Megrim', cursive;
+    font-family: 'Nova Oval', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navigator {
+    float: right;
+    padding-right: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* form-section */
+
+section {
+    text-align: left;
+    height: auto;
+}
+
+
+/* Quiz on triangles */
+
+.question-container,
+.quiz-header-container {
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+}
+
+.quiz-form-submit-btn {
+    margin-left: 44%;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    width: 200px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 15px;
+}
+
+#your-score {
+    text-align: center;
+}
+
+
+/* End of Quiz on triangles */
+
+
+/* footer */
+
+footer {
+    height: 50px;
+    text-align: center;
+}
