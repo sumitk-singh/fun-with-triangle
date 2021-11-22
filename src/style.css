@@ -46,7 +46,7 @@ section {
     padding: 15px;
 }
 
-.quiz-form-submit-btn {
+#submit-answer-btn {
     margin-left: 44%;
     margin-top: 2%;
     margin-bottom: 0.5%;
@@ -58,7 +58,7 @@ section {
     font-size: 15px;
 }
 
-#your-score {
+.output {
     text-align: center;
 }
 
