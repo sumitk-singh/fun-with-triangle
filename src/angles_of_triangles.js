@@ -14,7 +14,7 @@ function isTriangle() {
     if (sum_of_angle === 180) {
         output.innerText = "Yay, the angles form a triangle!";
     } else {
-        output.innerText = "Tringle can't form with these angle";
+        output.innerText = "Triangle can't form with these angle";
     }
 
 }
