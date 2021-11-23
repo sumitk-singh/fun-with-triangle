@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Farro&family=Megrim&family=Nova+Oval&family=PT+Sans&family=Roboto+Mono:wght@300&family=Roboto:wght@100&display=swap');
+
+/* css variable */
+
 :root {
     --primary-color: rgb(86, 12, 109);
 }
@@ -36,34 +39,38 @@ section {
 }
 
 
-/* Quiz on triangles */
+/* header and form container */
 
-.question-container,
-.quiz-header-container {
+.header-container,
+.form-container {
     font-size: 1.5rem;
     margin-left: 10%;
     margin-right: 10%;
     padding: 15px;
 }
 
-#submit-answer-btn {
+
+/* submit button */
+
+#submit-btn {
     margin-left: 44%;
     margin-top: 2%;
     margin-bottom: 0.5%;
-    width: 200px;
+    width: 220px;
+    padding: 10px;
     height: 55px;
     border-radius: 15px;
     background-color: var(--primary-color);
     color: white;
-    font-size: 15px;
+    font-size: 18px;
 }
+
+
+/* result or output */
 
 .output {
     text-align: center;
 }
-
-
-/* End of Quiz on triangles */
 
 
 /* footer */
@@ -71,4 +78,13 @@ section {
 footer {
     height: 50px;
     text-align: center;
+}
+
+
+/* PAGE-form container of angles of triangle */
+
+.input {
+    padding: 10px 16px;
+    margin-top: 15px;
+    margin-bottom: 12px;
 }
