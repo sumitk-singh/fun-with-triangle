@@ -1,5 +1,5 @@
-const quizForm = document.querySelector(".quiz-form-container");
-const submitAnswerBtn = document.querySelector("#submit-answer-btn");
+const quizForm = document.querySelector(".form-container");
+const submitAnswerBtn = document.querySelector("#submit-btn");
 const output_of_quiz_form = document.querySelector("#quiz-score-output");
 
 const correctAnswers = ["90°", "right angled", "one right angle", "12, 16, 20", "Equilateral triangle", "85°", "10°", "a + b + c", "no", "45°"]
@@ -17,7 +17,7 @@ function calculateScore() {
         }
         index = index + 1;
     }
-    output_of_quiz_form.innerText = "Your score is " + score;
+    return output_of_quiz_form.innerText = "Your score is " + score;
 
 }
 
